@@ -1,0 +1,60 @@
+{
+	"forms": {
+		"AdressToPerson": {
+			"timeStamp": "2022-07-14T06:31:54.000Z",
+			"destination": "detailScreen"
+		},
+		"Benutzer löschen": {
+			"timeStamp": "2022-07-14T06:31:54.000Z",
+			"destination": "detailScreen"
+		},
+		"Benutzer Übersicht": {
+			"timeStamp": "2022-07-14T06:31:54.000Z",
+			"destination": "detailScreen"
+		},
+		"BenutzerLogin": {
+			"timeStamp": "2022-07-14T06:31:54.000Z",
+			"destination": "detailScreen"
+		},
+		"BenutzerNeu": {
+			"timeStamp": "2022-07-14T06:31:54.000Z",
+			"destination": "detailScreen"
+		},
+		"DB Eintrag - Professor": {
+			"timeStamp": "2022-07-14T06:31:54.000Z",
+			"destination": "detailScreen"
+		},
+		"DB Einträge löschen": {
+			"timeStamp": "2022-07-14T06:31:54.000Z",
+			"destination": "detailScreen"
+		},
+		"MemeAPI": {
+			"timeStamp": "2022-07-14T06:31:54.000Z",
+			"destination": "detailScreen"
+		},
+		"Page": {
+			"timeStamp": "2022-07-14T06:31:54.000Z",
+			"destination": "detailScreen"
+		},
+		"REST-TESTKaan": {
+			"timeStamp": "2022-07-14T06:31:54.000Z",
+			"destination": "detailScreen"
+		},
+		"TestPut": {
+			"timeStamp": "2022-07-14T06:31:54.000Z",
+			"destination": "detailScreen"
+		},
+		"User_Handling_Classes": {
+			"timeStamp": "2022-07-14T06:31:54.000Z",
+			"destination": "detailScreen"
+		},
+		"Weather Informations": {
+			"timeStamp": "2022-07-14T06:31:54.000Z",
+			"destination": "detailScreen"
+		},
+		"Übersicht Lehrer": {
+			"timeStamp": "2022-07-14T06:31:54.000Z",
+			"destination": "detailScreen"
+		}
+	}
+}
