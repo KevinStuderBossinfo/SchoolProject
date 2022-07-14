@@ -1,1 +1,0 @@
-DIALOG:C40("DB Eintrag - Professor")
