@@ -1,0 +1,215 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"fo_Ortschaft": {
+					"type": "input",
+					"left": 152,
+					"top": 203,
+					"width": 125,
+					"height": 16,
+					"dataSource": "Form:C1466.Ortschaft"
+				},
+				"Text1": {
+					"type": "text",
+					"text": "Ortschaft:",
+					"top": 203,
+					"left": 25,
+					"width": 83,
+					"height": 15
+				},
+				"Text2": {
+					"type": "text",
+					"text": "Strasse:",
+					"top": 227,
+					"left": 24,
+					"width": 72,
+					"height": 15
+				},
+				"fo_Strasse": {
+					"type": "input",
+					"left": 152,
+					"top": 226,
+					"width": 125,
+					"height": 16,
+					"dataSource": "Form:C1466.Strasse"
+				},
+				"Text3": {
+					"type": "text",
+					"text": "Hausnummer:",
+					"top": 250,
+					"left": 23,
+					"width": 118,
+					"height": 15
+				},
+				"fo_Hausnummer": {
+					"type": "input",
+					"left": 151,
+					"top": 249,
+					"width": 125,
+					"height": 16,
+					"dataSource": "Form:C1466.Hausnummer"
+				},
+				"fo_Benutzer": {
+					"type": "input",
+					"left": 157,
+					"top": 13,
+					"width": 125,
+					"height": 16,
+					"dataSource": "Form:C1466.Benutzer",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text4": {
+					"type": "text",
+					"text": "Benutzer:",
+					"top": 13,
+					"left": 30,
+					"width": 83,
+					"height": 15
+				},
+				"Schaltfläche": {
+					"type": "button",
+					"text": "Button",
+					"top": 278,
+					"left": 79,
+					"width": 160,
+					"height": 67,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Schaltfläche.4dm"
+				},
+				"Schaltfläche1": {
+					"type": "button",
+					"text": "Suche",
+					"top": 42,
+					"left": 104,
+					"width": 82,
+					"height": 21,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Schaltfläche1.4dm"
+				},
+				"fo_Nachname": {
+					"type": "input",
+					"left": 152,
+					"top": 97,
+					"width": 125,
+					"height": 16,
+					"dataSource": "Form:C1466.Nachname",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text5": {
+					"type": "text",
+					"text": "Nachname:",
+					"top": 97,
+					"left": 25,
+					"width": 83,
+					"height": 15
+				},
+				"fo_Vorname": {
+					"type": "input",
+					"left": 153,
+					"top": 72,
+					"width": 125,
+					"height": 16,
+					"dataSource": "Form:C1466.Vorname",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text6": {
+					"type": "text",
+					"text": "Vorname:",
+					"top": 72,
+					"left": 26,
+					"width": 83,
+					"height": 15
+				},
+				"fo_PLZ": {
+					"type": "input",
+					"left": 152,
+					"top": 178,
+					"width": 125,
+					"height": 16,
+					"dataSource": "Form:C1466.PLZ"
+				},
+				"Text7": {
+					"type": "text",
+					"text": "PLZ:",
+					"top": 178,
+					"left": 25,
+					"width": 83,
+					"height": 15
+				},
+				"Text8": {
+					"type": "text",
+					"text": "Adresse ergänzen:",
+					"top": 139,
+					"left": 25,
+					"width": 146,
+					"height": 15
+				}
+			},
+			"entryOrder": [
+				"fo_Benutzer",
+				"Schaltfläche1",
+				"fo_Vorname",
+				"fo_Nachname",
+				"fo_PLZ",
+				"fo_Ortschaft",
+				"fo_Strasse",
+				"fo_Hausnummer",
+				"Schaltfläche"
+			]
+		}
+	],
+	"geometryStamp": 46,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"method": "method.4dm"
+}
