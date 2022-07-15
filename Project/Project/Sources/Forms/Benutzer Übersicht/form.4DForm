@@ -650,24 +650,11 @@
 					],
 					"dataSource": "Button3",
 					"method": "ObjectMethods/Schaltfläche2.4dm"
-				},
-				"Schaltfläche24": {
-					"type": "button",
-					"text": "Aktuell",
-					"top": 460,
-					"left": 467,
-					"width": 68,
-					"height": 35,
-					"events": [
-						"onClick"
-					],
-					"dataSource": "Button3",
-					"method": "ObjectMethods/Schaltfläche24.4dm"
 				}
 			}
 		}
 	],
-	"geometryStamp": 124,
+	"geometryStamp": 125,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",
