@@ -1,59 +1,59 @@
 {
 	"forms": {
 		"AdressToPerson": {
-			"timeStamp": "2022-07-14T06:31:54.000Z",
+			"timeStamp": "2022-07-14T13:43:24.324Z",
 			"destination": "detailScreen"
 		},
 		"Benutzer löschen": {
-			"timeStamp": "2022-07-14T06:31:54.000Z",
+			"timeStamp": "2022-07-14T13:43:24.328Z",
 			"destination": "detailScreen"
 		},
 		"Benutzer Übersicht": {
-			"timeStamp": "2022-07-14T06:31:54.000Z",
+			"timeStamp": "2022-07-14T13:43:24.340Z",
 			"destination": "detailScreen"
 		},
 		"BenutzerLogin": {
-			"timeStamp": "2022-07-14T06:31:54.000Z",
+			"timeStamp": "2022-07-14T13:43:24.342Z",
 			"destination": "detailScreen"
 		},
 		"BenutzerNeu": {
-			"timeStamp": "2022-07-14T06:31:54.000Z",
+			"timeStamp": "2022-07-14T13:43:24.344Z",
 			"destination": "detailScreen"
 		},
 		"DB Eintrag - Professor": {
-			"timeStamp": "2022-07-14T06:31:54.000Z",
+			"timeStamp": "2022-07-14T13:43:24.346Z",
 			"destination": "detailScreen"
 		},
 		"DB Einträge löschen": {
-			"timeStamp": "2022-07-14T06:31:54.000Z",
+			"timeStamp": "2022-07-14T13:43:24.349Z",
 			"destination": "detailScreen"
 		},
 		"MemeAPI": {
-			"timeStamp": "2022-07-14T06:31:54.000Z",
+			"timeStamp": "2022-07-14T13:43:24.350Z",
 			"destination": "detailScreen"
 		},
 		"Page": {
-			"timeStamp": "2022-07-14T06:31:54.000Z",
+			"timeStamp": "2022-07-14T13:43:24.354Z",
 			"destination": "detailScreen"
 		},
 		"REST-TESTKaan": {
-			"timeStamp": "2022-07-14T06:31:54.000Z",
+			"timeStamp": "2022-07-14T13:43:24.355Z",
 			"destination": "detailScreen"
 		},
 		"TestPut": {
-			"timeStamp": "2022-07-14T06:31:54.000Z",
+			"timeStamp": "2022-07-14T13:43:24.357Z",
 			"destination": "detailScreen"
 		},
 		"User_Handling_Classes": {
-			"timeStamp": "2022-07-14T06:31:54.000Z",
+			"timeStamp": "2022-07-14T13:43:24.358Z",
 			"destination": "detailScreen"
 		},
 		"Weather Informations": {
-			"timeStamp": "2022-07-14T06:31:54.000Z",
+			"timeStamp": "2022-07-14T13:43:24.360Z",
 			"destination": "detailScreen"
 		},
 		"Übersicht Lehrer": {
-			"timeStamp": "2022-07-14T06:31:54.000Z",
+			"timeStamp": "2022-07-14T13:43:24.362Z",
 			"destination": "detailScreen"
 		}
 	}
