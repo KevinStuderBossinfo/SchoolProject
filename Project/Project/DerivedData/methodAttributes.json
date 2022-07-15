@@ -1,56 +1,52 @@
 {
-<<<<<<< HEAD
-	"methods": {}
-=======
 	"methods": {
 		"LengthString": {
-			"timeStamp": "2022-07-15T05:54:11.214Z"
+			"timeStamp": "2022-07-15T06:00:17.967Z"
 		},
 		"Löschen": {
-			"timeStamp": "2022-07-15T05:54:11.215Z"
+			"timeStamp": "2022-07-15T06:00:17.968Z"
 		},
 		"OnErrCall": {
-			"timeStamp": "2022-07-15T05:54:11.216Z"
+			"timeStamp": "2022-07-15T06:00:17.969Z"
 		},
 		"OnErrNoCall": {
-			"timeStamp": "2022-07-15T05:54:11.217Z"
+			"timeStamp": "2022-07-15T06:00:17.970Z"
 		},
 		"OnStartUp": {
-			"timeStamp": "2022-07-15T05:54:11.217Z"
+			"timeStamp": "2022-07-15T06:00:17.971Z"
 		},
 		"oRechner": {
-			"timeStamp": "2022-07-15T05:54:11.226Z"
+			"timeStamp": "2022-07-15T06:00:17.980Z"
 		},
 		"Password_Check": {
-			"timeStamp": "2022-07-15T05:54:11.218Z"
+			"timeStamp": "2022-07-15T06:00:17.972Z"
 		},
 		"Pointer_Test": {
-			"timeStamp": "2022-07-15T05:54:11.219Z"
+			"timeStamp": "2022-07-15T06:00:17.972Z"
 		},
 		"SameString": {
-			"timeStamp": "2022-07-15T05:54:11.220Z"
+			"timeStamp": "2022-07-15T06:00:17.973Z"
 		},
 		"TestClassKaan": {
-			"timeStamp": "2022-07-15T05:54:11.223Z"
+			"timeStamp": "2022-07-15T06:00:17.976Z"
 		},
 		"TestHebi": {
-			"timeStamp": "2022-07-15T05:54:11.224Z"
+			"timeStamp": "2022-07-15T06:00:17.978Z"
 		},
 		"Test_Benutzerdatenklasse": {
-			"timeStamp": "2022-07-15T05:54:11.225Z"
+			"timeStamp": "2022-07-15T06:00:17.979Z"
 		},
 		"TRS_Land": {
-			"timeStamp": "2022-07-15T05:54:11.221Z"
+			"timeStamp": "2022-07-15T06:00:17.974Z"
 		},
 		"TRS_LandNotDelete": {
-			"timeStamp": "2022-07-15T05:54:11.222Z"
+			"timeStamp": "2022-07-15T06:00:17.975Z"
 		},
 		"uu_OnlyTestKev": {
-			"timeStamp": "2022-07-15T05:54:11.227Z"
+			"timeStamp": "2022-07-15T06:00:17.981Z"
 		},
 		"uu_test1": {
-			"timeStamp": "2022-07-15T05:54:11.228Z"
+			"timeStamp": "2022-07-15T06:00:17.982Z"
 		}
 	}
->>>>>>> kev
 }

@@ -1,64 +1,60 @@
 {
-<<<<<<< HEAD
-	"forms": {}
-=======
 	"forms": {
 		"AdressToPerson": {
-			"timeStamp": "2022-07-15T05:54:11.126Z",
+			"timeStamp": "2022-07-15T06:00:17.878Z",
 			"destination": "detailScreen"
 		},
 		"Benutzer löschen": {
-			"timeStamp": "2022-07-15T05:54:11.133Z",
+			"timeStamp": "2022-07-15T06:00:17.885Z",
 			"destination": "detailScreen"
 		},
 		"Benutzer Übersicht": {
-			"timeStamp": "2022-07-15T05:54:11.159Z",
+			"timeStamp": "2022-07-15T06:00:17.912Z",
 			"destination": "detailScreen"
 		},
 		"BenutzerLogin": {
-			"timeStamp": "2022-07-15T05:54:11.165Z",
+			"timeStamp": "2022-07-15T06:00:17.916Z",
 			"destination": "detailScreen"
 		},
 		"BenutzerNeu": {
-			"timeStamp": "2022-07-15T05:54:11.170Z",
+			"timeStamp": "2022-07-15T06:00:17.921Z",
 			"destination": "detailScreen"
 		},
 		"DB Eintrag - Professor": {
-			"timeStamp": "2022-07-15T05:54:11.176Z",
+			"timeStamp": "2022-07-15T06:00:17.928Z",
 			"destination": "detailScreen"
 		},
 		"DB Einträge löschen": {
-			"timeStamp": "2022-07-15T05:54:11.183Z",
+			"timeStamp": "2022-07-15T06:00:17.934Z",
 			"destination": "detailScreen"
 		},
 		"MemeAPI": {
-			"timeStamp": "2022-07-15T05:54:11.184Z",
+			"timeStamp": "2022-07-15T06:00:17.936Z",
 			"destination": "detailScreen"
 		},
 		"Page": {
-			"timeStamp": "2022-07-15T05:54:11.194Z",
+			"timeStamp": "2022-07-15T06:00:17.947Z",
 			"destination": "detailScreen"
 		},
 		"REST-TESTKaan": {
-			"timeStamp": "2022-07-15T05:54:11.197Z",
+			"timeStamp": "2022-07-15T06:00:17.949Z",
 			"destination": "detailScreen"
 		},
 		"TestPut": {
-			"timeStamp": "2022-07-15T05:54:11.200Z",
+			"timeStamp": "2022-07-15T06:00:17.953Z",
 			"destination": "detailScreen"
 		},
 		"User_Handling_Classes": {
-			"timeStamp": "2022-07-15T05:54:11.201Z",
+			"timeStamp": "2022-07-15T06:00:17.956Z",
 			"destination": "detailScreen"
 		},
 		"Weather Informations": {
-			"timeStamp": "2022-07-15T05:54:11.207Z",
+			"timeStamp": "2022-07-15T06:00:17.960Z",
 			"destination": "detailScreen"
 		},
 		"Übersicht Lehrer": {
-			"timeStamp": "2022-07-15T05:54:11.212Z",
+			"timeStamp": "2022-07-15T06:00:17.965Z",
 			"destination": "detailScreen"
 		}
 	}
->>>>>>> kev
 }
