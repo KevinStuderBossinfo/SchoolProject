@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><preferences stamp="5">
+	<com.4d>
+		<web>
+			<standalone_server>
+				<configuration port_number="80" publish_at_startup="false"/>
+				<rest launch_at_startup="true"/>
+				<options>
+					<cache cache_max_size="524288"/>
+				</options>
+				<webservices>
+					<server name="A_WebService"/>
+				</webservices>
+			</standalone_server>
+		</web>
+	</com.4d>
+</preferences>

@@ -1,0 +1,114 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onOutsideCall"
+	],
+	"windowTitle": "LoginMask",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Schaltfläche": {
+					"type": "button",
+					"text": "Anmelden",
+					"top": 161,
+					"left": 104,
+					"width": 128,
+					"height": 72,
+					"events": [
+						"onClick"
+					],
+					"dataSource": "button_anmelden",
+					"method": "ObjectMethods/Schaltfläche.4dm",
+					"borderStyle": "solid"
+				},
+				"Text": {
+					"type": "text",
+					"text": "Anmeldemaske",
+					"top": 21,
+					"left": 79,
+					"width": 210,
+					"height": 31,
+					"fontFamily": "Algerian",
+					"fontSize": 24,
+					"fontWeight": "bold"
+				},
+				"fo_LoginBenutzer": {
+					"type": "input",
+					"left": 142,
+					"top": 67,
+					"width": 184,
+					"height": 16,
+					"dataSource": "Form:C1466.LoginBenutzer"
+				},
+				"fo_LoginPasswort": {
+					"type": "input",
+					"left": 143,
+					"top": 102,
+					"width": 184,
+					"height": 16,
+					"dataSource": "Form:C1466.LoginPasswort",
+					"showSelection": false,
+					"visibility": "visible",
+					"placeholder": "",
+					"styledText": false,
+					"stroke": "#000000",
+					"method": "ObjectMethods/fo_LoginPasswort.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					],
+					"fontTheme": "normal"
+				},
+				"Text1": {
+					"type": "text",
+					"text": "Benutzername:",
+					"top": 66,
+					"left": 19,
+					"width": 93,
+					"height": 15
+				},
+				"Text2": {
+					"type": "text",
+					"text": "Passwort:",
+					"top": 100,
+					"left": 22,
+					"width": 60,
+					"height": 15
+				}
+			},
+			"entryOrder": [
+				"fo_LoginBenutzer",
+				"fo_LoginPasswort",
+				"Schaltfläche"
+			]
+		},
+		{
+			"objects": {}
+		}
+	],
+	"geometryStamp": 69,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"method": "method.4dm"
+}

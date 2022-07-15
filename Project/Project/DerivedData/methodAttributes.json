@@ -1,3 +1,56 @@
 {
+<<<<<<< HEAD
 	"methods": {}
+=======
+	"methods": {
+		"LengthString": {
+			"timeStamp": "2022-07-15T05:54:11.214Z"
+		},
+		"Löschen": {
+			"timeStamp": "2022-07-15T05:54:11.215Z"
+		},
+		"OnErrCall": {
+			"timeStamp": "2022-07-15T05:54:11.216Z"
+		},
+		"OnErrNoCall": {
+			"timeStamp": "2022-07-15T05:54:11.217Z"
+		},
+		"OnStartUp": {
+			"timeStamp": "2022-07-15T05:54:11.217Z"
+		},
+		"oRechner": {
+			"timeStamp": "2022-07-15T05:54:11.226Z"
+		},
+		"Password_Check": {
+			"timeStamp": "2022-07-15T05:54:11.218Z"
+		},
+		"Pointer_Test": {
+			"timeStamp": "2022-07-15T05:54:11.219Z"
+		},
+		"SameString": {
+			"timeStamp": "2022-07-15T05:54:11.220Z"
+		},
+		"TestClassKaan": {
+			"timeStamp": "2022-07-15T05:54:11.223Z"
+		},
+		"TestHebi": {
+			"timeStamp": "2022-07-15T05:54:11.224Z"
+		},
+		"Test_Benutzerdatenklasse": {
+			"timeStamp": "2022-07-15T05:54:11.225Z"
+		},
+		"TRS_Land": {
+			"timeStamp": "2022-07-15T05:54:11.221Z"
+		},
+		"TRS_LandNotDelete": {
+			"timeStamp": "2022-07-15T05:54:11.222Z"
+		},
+		"uu_OnlyTestKev": {
+			"timeStamp": "2022-07-15T05:54:11.227Z"
+		},
+		"uu_test1": {
+			"timeStamp": "2022-07-15T05:54:11.228Z"
+		}
+	}
+>>>>>>> kev
 }

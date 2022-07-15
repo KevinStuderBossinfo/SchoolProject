@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="SchoolProject" uuid="9470F0CC6266A14DB6887BC738854CF1" collation_locale="de-ch">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="Kaan" uuid="89E786FA84D23A4A82F33CE71EC29EAE" id="1">
+		<field name="ID" uuid="77826B01ACFB964B9B2010AC0A7ECD50" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Vorname" uuid="A18730A871CA6A48A2C4009940596E49" type="10" never_null="true" id="2"/>
+		<field name="Nachname" uuid="BA0A00E9E7002745893081B0445367F2" type="10" never_null="true" id="3"/>
+		<primary_key field_name="ID" field_uuid="77826B01ACFB964B9B2010AC0A7ECD50"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="6">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="40" top="40" width="120" height="167.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Test" uuid="781918B59EB7034FB4A749DDF33943A7" id="2">
+		<field name="ID" uuid="92FE813E5B072843A1CDB5C5E858AD3C" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Field1" uuid="7D28036D41FA2E4F80B82F73F0D15D80" type="10" limiting_length="255" never_null="true" id="2"/>
+		<primary_key field_name="ID" field_uuid="92FE813E5B072843A1CDB5C5E858AD3C"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="6">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="200" top="44" width="120" height="167.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Logindaten" uuid="A97122F693B1EC49AE4C3137CD9CA514" id="3">
+		<field name="ID" uuid="8C254742180683448D71FB14EB0A9554" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Benutzer" uuid="461136702A34FE42B1DAD6427EBA215E" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="Passwort" uuid="F0CEBF5E90C04B4DBD91B08EE4267587" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="Person_ID" uuid="69280738F6A09048B01F2AE876AD9EF7" type="4" never_null="true" id="4"/>
+		<primary_key field_name="ID" field_uuid="8C254742180683448D71FB14EB0A9554"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="6">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="491" top="2" width="120" height="167.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Lehrer" uuid="4DEA4C828A5237488BE30A35D811622F" id="4">
+		<field name="ID" uuid="586CDC90E4894B469BA6DF7AEE00F227" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Vorname" uuid="99D2831D3388534E88D490764958989A" type="10" never_null="true" id="2"/>
+		<field name="Nachname" uuid="C52FB9A58595BC47B3117CCE8562EE33" type="10" never_null="true" id="3"/>
+		<field name="Wohnort" uuid="DB64667F1002CA43B45D17B6B4166830" type="10" never_null="true" id="4"/>
+		<field name="Strasse" uuid="9CA70658ED1CA743BAA0D4C5269326E8" type="10" never_null="true" id="5"/>
+		<field name="Hausnummer" uuid="F70A1D0F01FCEA44812EF403300896B2" type="3" never_null="true" id="6"/>
+		<field name="Postleitzahl" uuid="151F128B01227943AFE94D721950717A" type="5" never_null="true" id="7"/>
+		<field name="Fach" uuid="4E56140CD699D24BA0C8E8F3198E96CC" type="10" never_null="true" id="8"/>
+		<primary_key field_name="ID" field_uuid="586CDC90E4894B469BA6DF7AEE00F227"/>
+		<table_extra trigger_insert="true" trigger_update="true" trigger_delete="true">
+			<editor_table_info displayable_fields_count="9">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="27" top="241" width="178" height="249.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Person" uuid="AF08888E707393428C1568443DCFFE26" id="5">
+		<field name="ID" uuid="9D466C47275D374D946684A5C3BB7343" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Vorname" uuid="279E8C656A32A94F98BCC130B5E6A191" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="Nachname" uuid="D54FFC437F908343BDA6D7DB55DD1E9C" type="10" limiting_length="255" not_null="true" never_null="true" id="3">
+			<field_extra multi_line="false"/>
+		</field>
+		<field name="Geburtstag" uuid="DEC3F8EAF00235458862BE316B64829F" type="10" limiting_length="255" never_null="true" id="4">
+			<field_extra multi_line="false"/>
+		</field>
+		<primary_key field_name="ID" field_uuid="9D466C47275D374D946684A5C3BB7343"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="14">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="902" top="0" width="120" height="344.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Adresse" uuid="EE9DBCB4ED8811479327BB4826158F8A" id="8">
+		<field name="ID" uuid="6A79554A40B2BB48A9BAFC7C7B7D3EF1" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Person_ID" uuid="F10E7CBCC8F3EE4E9E69CCA0291D8448" type="4" never_null="true" id="3"/>
+		<field name="Ortschaft_ID" uuid="EB0D8A3D51D0BF449F04240C22AE0E7D" type="4" never_null="true" id="4"/>
+		<field name="Strasse" uuid="A2B7C81DB6D6D4439BE6C2B0B5E406C2" type="10" limiting_length="255" never_null="true" id="5"/>
+		<field name="Hausnummer" uuid="AE70FACED9CF6549969934594422237F" type="10" limiting_length="255" never_null="true" id="6"/>
+		<primary_key field_name="ID" field_uuid="6A79554A40B2BB48A9BAFC7C7B7D3EF1"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="11">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="768" top="459" width="261" height="278.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Ortschaft" uuid="F5F726C5529DD4439603BE1A2EE0EECD" id="9">
+		<field name="ID" uuid="92E434475D0B424DB098F4344C199DF8" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Ortschaft" uuid="6D537092B56F72488FEE289543882AA1" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="PLZ" uuid="BD6A69DE78A786469A5ACB64B75E2109" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="Kanton_ID" uuid="06E44ABFB54EA0459AA2DF3DD5A7DF39" type="4" never_null="true" id="4"/>
+		<primary_key field_name="ID" field_uuid="92E434475D0B424DB098F4344C199DF8"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="6">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="1563" top="252" width="120" height="167.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Kanton" uuid="DA3BC0D75ECD8341A4917C3EB81548E9" id="10">
+		<field name="ID" uuid="D8D629B618896A4E8A8838337C3C779B" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Kanton" uuid="D16FB18C8CC3634A843938D2ADA37453" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="Land_ID" uuid="38669658A3E1704482814B9A0E69E1EB" type="4" never_null="true" id="3"/>
+		<primary_key field_name="ID" field_uuid="D8D629B618896A4E8A8838337C3C779B"/>
+		<table_extra trigger_insert="true" trigger_update="true" trigger_delete="true">
+			<editor_table_info displayable_fields_count="6">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="1335" top="87" width="120" height="167.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Land" uuid="741475459ECB30469127EC00800244BC" id="11">
+		<field name="ID" uuid="F28385415DF67B43AC14A2935011D25C" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Land" uuid="BD4EF591BA910741B93F1FADB62369F1" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="Abkürzung" uuid="AFD1EB2B2EBE2A4383DF3C0E97469AED" type="10" limiting_length="255" not_null="true" never_null="true" id="3"/>
+		<primary_key field_name="ID" field_uuid="F28385415DF67B43AC14A2935011D25C"/>
+		<table_extra trigger_update="true" trigger_delete="true" trigger_insert="true">
+			<editor_table_info displayable_fields_count="6">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="1359" top="461" width="120" height="167.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<relation uuid="C3456E07115090498AF06ECEEDFAD4C3" name_Nto1="y1_ToPerson1" name_1toN="yN_ToAdresse" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="F10E7CBCC8F3EE4E9E69CCA0291D8448" name="Person_ID">
+				<table_ref uuid="EE9DBCB4ED8811479327BB4826158F8A" name="Adresse"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="9D466C47275D374D946684A5C3BB7343" name="ID">
+				<table_ref uuid="AF08888E707393428C1568443DCFFE26" name="Person"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="true" smartlink="true">
+				<color red="240" green="240" blue="240" alpha="0"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<relation uuid="81BC2532A15CDF4381E412AE0CB7018A" name_Nto1="y1_ToOrtschtaft" name_1toN="yN_ToAdresse1" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="EB0D8A3D51D0BF449F04240C22AE0E7D" name="Ortschaft_ID">
+				<table_ref uuid="EE9DBCB4ED8811479327BB4826158F8A" name="Adresse"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="92E434475D0B424DB098F4344C199DF8" name="ID">
+				<table_ref uuid="F5F726C5529DD4439603BE1A2EE0EECD" name="Ortschaft"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="true" smartlink="true">
+				<color red="240" green="240" blue="240" alpha="0"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<relation uuid="9F72F7152E52BE489BC862CB8C0AF7F4" name_Nto1="y1_ToPerson" name_1toN="yN_ToLogindaten" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="69280738F6A09048B01F2AE876AD9EF7" name="Person_ID">
+				<table_ref uuid="A97122F693B1EC49AE4C3137CD9CA514" name="Logindaten"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="9D466C47275D374D946684A5C3BB7343" name="ID">
+				<table_ref uuid="AF08888E707393428C1568443DCFFE26" name="Person"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="false" smartlink="true">
+				<color red="240" green="240" blue="240" alpha="0"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<relation uuid="2AFE55C5B90D7E458B362797F45E13FA" name_Nto1="y1_ToLand" name_1toN="yN_ToKanton" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="38669658A3E1704482814B9A0E69E1EB" name="Land_ID">
+				<table_ref uuid="DA3BC0D75ECD8341A4917C3EB81548E9" name="Kanton"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="F28385415DF67B43AC14A2935011D25C" name="ID">
+				<table_ref uuid="741475459ECB30469127EC00800244BC" name="Land"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="false" smartlink="true">
+				<color red="240" green="240" blue="240" alpha="0"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<relation uuid="E9E4F8CE30969E4EABB0C043CF2F1624" name_Nto1="y1_ToKanton" name_1toN="yN_ToOrtschaft" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="06E44ABFB54EA0459AA2DF3DD5A7DF39" name="Kanton_ID">
+				<table_ref uuid="F5F726C5529DD4439603BE1A2EE0EECD" name="Ortschaft"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="D8D629B618896A4E8A8838337C3C779B" name="ID">
+				<table_ref uuid="DA3BC0D75ECD8341A4917C3EB81548E9" name="Kanton"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="true" smartlink="true">
+				<color red="240" green="240" blue="240" alpha="0"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<index kind="regular" unique_keys="true" uuid="091CF4C7ED11114C9917112B8A79F4D5" type="7">
+		<field_ref uuid="8C254742180683448D71FB14EB0A9554" name="ID">
+			<table_ref uuid="A97122F693B1EC49AE4C3137CD9CA514" name="Logindaten"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="0A6C4FAF297220408467BD1A0B7738C5" type="7">
+		<field_ref uuid="586CDC90E4894B469BA6DF7AEE00F227" name="ID">
+			<table_ref uuid="4DEA4C828A5237488BE30A35D811622F" name="Lehrer"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="0D0702EB816ECE48937BDDC69D10BF6F" type="7">
+		<field_ref uuid="92E434475D0B424DB098F4344C199DF8" name="ID">
+			<table_ref uuid="F5F726C5529DD4439603BE1A2EE0EECD" name="Ortschaft"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="12FDC91B630095429DCBD9A0AAE348C9" type="7">
+		<field_ref uuid="461136702A34FE42B1DAD6427EBA215E" name="Benutzer">
+			<table_ref uuid="A97122F693B1EC49AE4C3137CD9CA514" name="Logindaten"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="2993CF1C00223C4EBECEA448B9C40F3E" type="7">
+		<field_ref uuid="6A79554A40B2BB48A9BAFC7C7B7D3EF1" name="ID">
+			<table_ref uuid="EE9DBCB4ED8811479327BB4826158F8A" name="Adresse"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="50433980443E3243A6C1AE7D9789353B" type="7">
+		<field_ref uuid="69280738F6A09048B01F2AE876AD9EF7" name="Person_ID">
+			<table_ref uuid="A97122F693B1EC49AE4C3137CD9CA514" name="Logindaten"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="6C116A79F7D3864CB03122060868D620" type="7">
+		<field_ref uuid="F0CEBF5E90C04B4DBD91B08EE4267587" name="Passwort">
+			<table_ref uuid="A97122F693B1EC49AE4C3137CD9CA514" name="Logindaten"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="820B765F40620946B54A8993F654D505" type="7">
+		<field_ref uuid="77826B01ACFB964B9B2010AC0A7ECD50" name="ID">
+			<table_ref uuid="89E786FA84D23A4A82F33CE71EC29EAE" name="Kaan"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="8E9AEEFC7686F34EABF265656A07B30D" type="7">
+		<field_ref uuid="D8D629B618896A4E8A8838337C3C779B" name="ID">
+			<table_ref uuid="DA3BC0D75ECD8341A4917C3EB81548E9" name="Kanton"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="A364D155A5078144A50774529E20E3B4" type="7">
+		<field_ref uuid="9D466C47275D374D946684A5C3BB7343" name="ID">
+			<table_ref uuid="AF08888E707393428C1568443DCFFE26" name="Person"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="A94E98335A27214FB6311E5CB7A42DA2" type="7">
+		<field_ref uuid="F28385415DF67B43AC14A2935011D25C" name="ID">
+			<table_ref uuid="741475459ECB30469127EC00800244BC" name="Land"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="B34CD10F1312FB4E847F971BC76DC76D" type="7">
+		<field_ref uuid="06E44ABFB54EA0459AA2DF3DD5A7DF39" name="Kanton_ID">
+			<table_ref uuid="F5F726C5529DD4439603BE1A2EE0EECD" name="Ortschaft"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="C02E8C714F62A3408C5EAEE2FCD8A116" type="7">
+		<field_ref uuid="D16FB18C8CC3634A843938D2ADA37453" name="Kanton">
+			<table_ref uuid="DA3BC0D75ECD8341A4917C3EB81548E9" name="Kanton"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="C27814BAC8B98A4CB69AECEA038B41DD" type="7">
+		<field_ref uuid="92FE813E5B072843A1CDB5C5E858AD3C" name="ID">
+			<table_ref uuid="781918B59EB7034FB4A749DDF33943A7" name="Test"/>
+		</field_ref>
+	</index>
+	<base_extra __stringCompHash="icu:68.1.0" __keywordBuildingHash="icu:68.1.0">
+		<journal_file journal_file_enabled="true"/>
+	</base_extra>
+</base>

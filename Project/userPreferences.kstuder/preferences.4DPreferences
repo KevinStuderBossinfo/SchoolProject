@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?><preferences stamp="12">
+=======
+<?xml version="1.0" encoding="UTF-8"?><preferences stamp="22">
+>>>>>>> kev
 	<com.4d>
 		<database>
 			<data_storage data_path="Project/SchoolProject.4DD"/>
@@ -6,7 +10,11 @@
 		<general last_opening_mode="0"/>
 	</com.4d>
 	<internal_prefs_4d>
+<<<<<<< HEAD
 		<explorer default_page="9"/>
+=======
+		<explorer default_page="2"/>
+>>>>>>> kev
 		<windows>
 			<window name="main" left="48" top="149" width="600" height="450"/>
 		</windows>
