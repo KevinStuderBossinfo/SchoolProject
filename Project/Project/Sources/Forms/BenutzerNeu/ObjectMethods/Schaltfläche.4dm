@@ -69,6 +69,7 @@ Case of
 				Form:C1466.Benutzername:=""
 				Form:C1466.Passwort:=""
 				Form:C1466.Confirm:=""
+				GOTO OBJECT:C206(*; "fo_Vorname")
 				
 				
 			Else   //stop

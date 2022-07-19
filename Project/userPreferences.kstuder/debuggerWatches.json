@@ -1,0 +1,14 @@
+[
+	{
+		"type": 66,
+		"formula": "ab_NichtZeigen"
+	},
+	{
+		"type": 66,
+		"formula": "at_Benutzer"
+	},
+	{
+		"type": 66,
+		"formula": "$i"
+	}
+]

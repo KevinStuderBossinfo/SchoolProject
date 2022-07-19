@@ -9,6 +9,7 @@ For ($i; 1; Size of array:C274(at_ID))
 		ab_NichtZeigen{$i}:=True:C214
 		OBJECT SET ENABLED:C1123(*; "Schaltfläche18"; False:C215)
 	End if 
+	ab_1{$i}:=False:C215
 End for 
 
 

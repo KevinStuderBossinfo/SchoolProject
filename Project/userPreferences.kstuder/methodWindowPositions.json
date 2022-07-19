@@ -1,0 +1,50 @@
+{
+	"Sources/Forms/BenutzerNeu/ObjectMethods/Schaltfläche.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1920,
+		"height": 939
+	},
+	"Sources/Forms/Benutzer Übersicht/ObjectMethods/Schaltfläche23.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1920,
+		"height": 1059
+	},
+	"Sources/Forms/Benutzer Übersicht/ObjectMethods/Schaltfläche22.4dm": {
+		"left": 0,
+		"top": 109,
+		"width": 1920,
+		"height": 1059
+	},
+	"Sources/Forms/Benutzer Übersicht/method.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1920,
+		"height": 1059
+	},
+	"Sources/Forms/Benutzer Übersicht/ObjectMethods/Schaltfläche20.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1920,
+		"height": 1059
+	},
+	"Sources/Forms/Benutzer Übersicht/ObjectMethods/Schaltfläche21.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1920,
+		"height": 1059
+	},
+	"Sources/Forms/Benutzer Übersicht/ObjectMethods/Schaltfläche18.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1920,
+		"height": 1059
+	},
+	"Sources/Forms/Benutzer Übersicht/ObjectMethods/LB_Array.4dm": {
+		"left": 829,
+		"top": 135,
+		"width": 819,
+		"height": 438
+	}
+}

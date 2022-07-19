@@ -1,0 +1,74 @@
+{
+	"Sources/Forms/BenutzerNeu/ObjectMethods/Schaltfläche.4dm": {
+		"startSelection": 16,
+		"endSelection": 16,
+		"firstSelectedLine": 70,
+		"lastSelectedLine": 70,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-15T06:30:29.003Z"
+	},
+	"Sources/Forms/Benutzer Übersicht/ObjectMethods/Schaltfläche23.4dm": {
+		"startSelection": 15,
+		"endSelection": 15,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 6,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-19T11:10:07.516Z"
+	},
+	"Sources/Forms/Benutzer Übersicht/ObjectMethods/Schaltfläche22.4dm": {
+		"startSelection": 33,
+		"endSelection": 0,
+		"firstSelectedLine": 15,
+		"lastSelectedLine": 15,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-19T11:57:59.292Z"
+	},
+	"Sources/Forms/Benutzer Übersicht/method.4dm": {
+		"startSelection": 25,
+		"endSelection": 25,
+		"firstSelectedLine": 24,
+		"lastSelectedLine": 24,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-15T06:00:17.913Z"
+	},
+	"Sources/Forms/Benutzer Übersicht/ObjectMethods/Schaltfläche20.4dm": {
+		"startSelection": 46,
+		"endSelection": 46,
+		"firstSelectedLine": 26,
+		"lastSelectedLine": 26,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-19T11:57:44.365Z"
+	},
+	"Sources/Forms/Benutzer Übersicht/ObjectMethods/Schaltfläche21.4dm": {
+		"startSelection": 22,
+		"endSelection": 22,
+		"firstSelectedLine": 16,
+		"lastSelectedLine": 16,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-19T11:19:10.293Z"
+	},
+	"Sources/Forms/Benutzer Übersicht/ObjectMethods/Schaltfläche18.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 15,
+		"lastSelectedLine": 15,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-19T11:20:33.845Z"
+	},
+	"Sources/Forms/Benutzer Übersicht/ObjectMethods/LB_Array.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 4,
+		"lastSelectedLine": 4,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-07-19T12:03:37.109Z"
+	}
+}
